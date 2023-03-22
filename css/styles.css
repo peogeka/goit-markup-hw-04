@@ -137,12 +137,26 @@ text-transform: uppercase;
     padding-top: 188px;
     padding-bottom: 188px;
     
-    background-color: var(--background-color-black);
+    
     
     text-align: center;
-    
+   
         
 }
+
+.hero-image {
+    height: 600px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+}
+
 .hero-text {
     width: 496px;
     height: 120px;
@@ -191,6 +205,17 @@ text-transform: uppercase;
     padding-top: 120px;
 }
 
+.foto-rules {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 264px;
+    height: 112px;
+    background: var(--background-color-white);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
 
 .rules-list {
@@ -205,6 +230,34 @@ text-transform: uppercase;
 }
 .item-rules:last-child {
     margin-right: 0px;
+}
+.customers {
+    display: flex;
+    list-style: none;
+
+    
+}
+.customers-logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    
+
+    width: 168px;
+    height: 88px;
+
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+}
+
+.customers-logo:last-child {
+    margin-right: 0px;
+}
+.our-customers {
+    padding-bottom: 120px;
+    padding-top: 69px;
 }
 
 
@@ -243,6 +296,32 @@ text-transform: uppercase;
     color: var(--primary-text-color);
     }
 
+.social-item {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 232px;
+    height: 40px;
+
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:  var( --primary-blue-color);;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.social-icon:hover{
+    background-color: var(--hover-focus-color);;
+}
 .subtitle {
     margin-bottom: 72px;
 
